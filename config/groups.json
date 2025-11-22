@@ -1,0 +1,8 @@
+{
+    "groups": {
+        "family": "chat45e2b868ce1e43da89af262922733382",
+        "work": "chat123abc456def789ghi012jkl345mno",
+        "friends": "chat987zyx654wvu321tsr098qpo765nml"
+    },
+    "note": "Replace the chatIds above with your actual group chat IDs. Run 'npm run list-groups' to find them."
+}

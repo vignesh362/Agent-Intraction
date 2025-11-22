@@ -1,0 +1,44 @@
+{
+    "name": "imessage-client",
+    "version": "2.0.0",
+    "description": "Simple Python-like iMessage client for sending messages on macOS",
+    "type": "module",
+    "scripts": {
+        "start": "tsx examples/simple-trial.ts",
+        "plan": "tsx examples/simple-trial.ts",
+        "clean-plan": "tsx examples/clean-interactive-planner.ts",
+        "oauth-server": "tsx examples/start-oauth-server.ts",
+        "test-calendar": "tsx examples/test-calendar-oauth.ts"
+    },
+    "keywords": [
+        "imessage",
+        "messaging",
+        "automation",
+        "macos",
+        "group-chat"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@langchain/community": "^1.0.4",
+        "@langchain/core": "^1.0.6",
+        "@langchain/google-genai": "^1.0.3",
+        "@langchain/openai": "^1.1.2",
+        "@photon-ai/imessage-kit": "^1.0.0",
+        "@types/express": "^5.0.5",
+        "axios": "^1.13.2",
+        "better-sqlite3": "^11.0.0",
+        "dotenv": "^17.2.3",
+        "express": "^5.1.0",
+        "googleapis": "^166.0.0",
+        "langchain": "^1.0.6",
+        "open": "^11.0.0",
+        "zod": "^4.1.12"
+    },
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.6.0",
+        "@types/node": "^24.10.1",
+        "tsx": "^4.0.0",
+        "typescript": "^5.0.0"
+    }
+}
